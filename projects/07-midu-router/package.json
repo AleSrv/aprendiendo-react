@@ -14,7 +14,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "prepare": "npm run test && swc src/components src/utils src/index.jsx -d lib",
     "preview": "vite preview",
     "test": "echo",
     "test:watch": "vitest",
